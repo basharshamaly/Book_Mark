@@ -1,0 +1,178 @@
+/* Start Globle CSS */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+:root {
+    --red :#FA5757;
+    --blue :#5368DF;
+    --dark-blue :#252B46;
+    --dark-blue-op70 : #252b46b3;
+    --light-gray : #E8EAF6;
+    --dark-gray :#9194A1;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+h1 , h2 , h3 {
+    color: var(--dark-blue) !important;
+    font-weight: 500 ;
+    padding-top: 30px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 32px;   
+}
+p{
+    color: var(--dark-gray) !important;
+}
+.nav-item .nav-link.active {
+    color: red;
+}
+section {
+    padding-top: 12vh;
+}
+button{
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+.bg-primary{
+    background-color: var(--blue) !important;
+}
+
+.btn-primary{
+    background-color: var(--blue) !important;
+    border-color: var(--blue) !important;
+}
+.btn-primary:hover , .btn-primary:active{
+    background-color: transparent !important;
+    color: var(--blue) !important;
+    border-color: var(--blue) !important;
+}
+.btn-light{
+    background-color: var(--light-gray) !important;
+    border-color: var(--light-gray) !important;
+}
+.btn-light:hover , .btn-light:active{
+    background-color: transparent !important;
+    border-color: var(--light-gray) !important;
+}
+.btn-danger{
+    background-color: var(--red);
+    border-color: var(--red);
+}
+.btn-danger:hover , .btn-danger:active{
+    background-color: transparent !important;
+    color: var(--red) !important;
+    border-color: var(--red) !important;
+}
+/* End Globle CSS */
+
+/* Start Header Section */
+header{
+    min-height: 12vh;
+}
+header nav .nav-link{
+    color: var(--dark-blue);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+}
+header .nav-link.active{
+    color: var(--red) !important ;
+}
+/* End Header Section */
+
+
+/* Start Hero Section */
+.hero{
+    min-height: 88vh;
+}
+.hero h1{
+    font-size: 45px;
+}
+/* End Hero Section */
+
+/* Start Features Section */
+.features .nav-pills{
+    width: fit-content;
+    margin: 20px auto;
+    border-bottom: 2px solid var(--dark-gray);
+}
+.features .nav-pills .nav-link {
+    color: var(--dark-blue-op70) !important ;
+    font-weight: 500;
+    padding: 15px 30px;
+    
+}
+.features .nav-pills .nav-link.active{
+    background-color: transparent;
+    color: var(--dark-blue) !important;
+    border-bottom: 2px solid var(--red);
+    border-radius: 0;
+    
+}
+/* End Features Section */
+
+/* Start download Section */
+.download  {
+    padding-bottom: 200px;
+}
+.download .line {
+    border-top :dotted 2px var(--dark-gray)
+}
+.download .col:nth-child(2) .card{
+    transform: translateY(50px);
+}
+.download .col:nth-child(3) .card{
+    transform: translateY(100px);
+}
+.download .card img {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+/* End download Section */
+
+/* Start FQA Section */
+.fqa .accordion .accordion-item {
+    border: none !important;
+    border-top: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color) !important;
+}
+.fqa .accordion .accordion-item:last-child {
+    border-top: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color) !important;
+    border-bottom: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color) !important;
+}
+.fqa .accordion .accordion-item button{
+    font-size: 20px !important;
+    color: var(--dark-blue) !important;
+}
+/* End FQA Section */
+
+
+/* Start contact Section */
+.contact .top{
+    letter-spacing: 4px;
+    font-size: 14px;
+}
+
+/* End contact Section */
+
+
+/* Start footer Section */
+footer{
+    background-color: var(--dark-blue);
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+footer a{
+   text-decoration: none;
+   color: inherit;
+   margin-left: 20px;
+}
+footer a:hover{
+   color: #FA5757;
+}
+/* End contact Section */
+
+
